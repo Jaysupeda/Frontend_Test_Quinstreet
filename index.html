@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modernize - Home Empowerment</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header>
+      <a href="#">
+        <img src="assets/img/logo.svg" alt="logo" />
+      </a>
+    </header>
+    <!-- Header End -->
+
+    <!-- Main Start -->
+    <main>
+      <div class="container">
+        <!-- Form Section Start -->
+        <section class="form_section">
+          <div class="offer_title">
+            <h2>
+              Enter to win a 3rd generation Nest Learning Thermostat worth $249.
+            </h2>
+          </div>
+          <div class="offer_form">
+            <form id="offerForm" action="#" method="post">
+              <div class="form_group">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Name"
+                  required
+                />
+                <div class="error-message" id="nameError"></div>
+              </div>
+              <div class="form_row">
+                <div class="form_group">
+                  <input type="text" id="city" name="city" placeholder="City" />
+                </div>
+                <div class="form_group state_field">
+                  <input
+                    type="text"
+                    id="state"
+                    name="state"
+                    placeholder="State"
+                  />
+                </div>
+              </div>
+              <div class="form_group">
+                <input
+                  type="text"
+                  id="phone"
+                  name="phone"
+                  placeholder="Phone Number (XXX) XXX-XXXX"
+                  required
+                  maxlength="14"
+                />
+                <div class="error-message" id="phoneError"></div>
+              </div>
+              <div class="form_group">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email Address"
+                  required
+                />
+                <div class="error-message" id="emailError"></div>
+              </div>
+              <button type="submit" id="submitButton">Enter to Win</button>
+            </form>
+          </div>
+        </section>
+        <!-- Form Section End -->
+
+        <!-- More Offer Section Start -->
+        <section class="more_offer_section">
+          <div class="offer_block">
+            <fieldset>
+              <legend>Even More Savings</legend>
+              <div class="offer_inner_block">
+                <label for="Advertorial">Advertorial</label>
+                <h4>Tricks Homeowners Use to Eliminate Bills</h4>
+                <p>
+                  Surging energy bills, unpredictable weather patterns and
+                  dissatisfaction with utility companies have homeowners
+                  scrambling...
+                  <a href="https://www.google.com/" target="_blank"
+                    >Read More</a
+                  >
+                </p>
+              </div>
+            </fieldset>
+          </div>
+        </section>
+        <!-- More Offer Section End -->
+      </div>
+    </main>
+    <!-- Main End -->
+
+    <!-- Scripts -->
+    <script src="assets/js/general.js"></script>
+  </body>
+</html>

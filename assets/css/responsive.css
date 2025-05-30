@@ -1,0 +1,28 @@
+@media only screen and (max-width: 767px) {
+  .offer_title h2 {
+    max-width: 80%;
+  }
+  .form_section {
+    margin-top: 15px;
+  }
+  .offer_form {
+    padding: 15px 22px 22px 24px;
+  }
+  .offer_form input {
+    padding: 10px;
+  }
+  .more_offer_section {
+    background: transparent;
+    padding: 0;
+    margin-top: 35px;
+    padding-bottom: 40px;
+  }
+  .offer_block fieldset legend {
+    padding: 0 15px;
+  }
+  .offer_inner_block {
+    padding: 11px 13px 30px 15px;
+    background: rgb(255 255 255 / 75%);
+    margin: 9px 15px 15px;
+  }
+}
